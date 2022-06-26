@@ -26,5 +26,9 @@ public class Car {
 	
 	public void setModel(String model) { _model = model; }
 	public void setMake(String make) { _make = make; }
-	public void setYear(int year) { _year = year; }
+	public void setYear(int year) 
+	{ 
+		//year cannot be less than 1900 < 1900 or more than 2015
+		_year = year; 
+  }
 }
