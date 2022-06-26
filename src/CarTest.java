@@ -26,6 +26,10 @@ public class CarTest {
 			car .setMake(make);
 			car .setModel(model);
 			car .setYear(year);
+			scan.nextLine();
+			
+			System.out.println("Here's the data you provided: " + car);
+			System.out.println("press 'Q' to quit or any key to continue");
 			
 			
 		}
