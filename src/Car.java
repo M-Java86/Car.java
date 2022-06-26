@@ -39,7 +39,13 @@ public class Car {
 			year = scan.nextInt();
 		}
 		_year = year;
-  }
+	}
+			public void quitScanner()
+			{
+				scan.close();
+			}
+		
+  
 	public String toString()
 	{
       //toString method will simply return the make, model and the year.
