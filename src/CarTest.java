@@ -42,6 +42,7 @@ public class CarTest {
 		}
 		
 		scan.close();
+		car.quitScanner();
 		System.out.println("Good bye");
 			
 
