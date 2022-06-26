@@ -47,7 +47,8 @@ public class CarTest {
 		}
 		
 		scan.close();
-		car.quitScanner();
+		//car.quitScanner(); //no more access because the car has not been created in the while loop and because of this , the car.quitScanner is out
+		//the loop, it's basically not visible. 
 		System.out.println("Good bye");
 			
 
