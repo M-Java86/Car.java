@@ -1,3 +1,5 @@
+![ALT text](image URL)
+
 # Garage.java
 Java-Creating Car Classes(Java OPP, Objects, Classes, Setters, Getters)
 
