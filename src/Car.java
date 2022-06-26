@@ -9,7 +9,10 @@ public class Car {
 	//Constructor 
 	public Car(String make, String model, int year)
 	{
-		
+		//assign values to = to constructor
+		_model = model;
+		_make = make;
+		_year = year;
 	}
       //getters -simply return model
 	public String getModel() { return _model; }
