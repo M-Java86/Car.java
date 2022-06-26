@@ -13,7 +13,7 @@ public class CarTest {
 		
 		//create empty object-filling it with data inside the loop.
 		//This is not the only way to do it, we could create a new object for each car that we are entering.(will re-factor)
-		Car car = new Car(" ", " ", 0); //initialized to nothing empty strings and 0 for the year
+		//Car car = new Car(" ", " ", 0); //initialized to nothing empty strings and 0 for the year
 		
 		
 		//loop
@@ -23,6 +23,8 @@ public class CarTest {
 			make = scan.next();
 			model = scan.next();
 			year = scan.nextInt();
+			
+			//creating a different object for each of the cars inside the while loop
 			
 			//assign data to object-Setters come into play
 			car .setMake(make);
