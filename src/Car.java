@@ -1,10 +1,13 @@
+import java.util.Scanner;
 
 public class Car {
+	
 	
 	//private fields
 	private String _model;
 	private String _make;
 	private int _year;
+	Scanner scan = new Scanner(System.in);
 	
 	//Constructor 
 	public Car(String make, String model, int year)
@@ -30,5 +33,10 @@ public class Car {
 	{ 
 		//year cannot be less than 1900 < 1900 or more than 2015
 		_year = year; 
+		while (year <1900 || year > 2015)
+		{
+			System.out.println("Please enter valid year");
+			year =
+		}
   }
 }
