@@ -1,4 +1,4 @@
-![ALT text](image URL)
+![](https://github.com/M-Java86/Car.java/blob/main/images/garage.jpg)
 
 # Garage.java
 Java-Creating Car Classes(Java OPP, Objects, Classes, Setters, Getters)
