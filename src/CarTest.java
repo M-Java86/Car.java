@@ -5,7 +5,8 @@ public class CarTest {
 	public static void main(String[] args) {
 	//using a while loop and letting the user decide when to quit the program.
 		boolean quit = false;
-		//catch input variable
+		//capture input variable
+		String toQuit;
 		String model, make;
 		int year = 0;
 		Scanner scan = new Scanner(System.in);
@@ -31,6 +32,8 @@ public class CarTest {
 			
 			System.out.println("Here's the data you provided: " + car);
 			System.out.println("press 'Q' to quit or any key to continue");
+			//hold the value that the users enters
+			toQuit = scan.next();
 			
 			
 		}
