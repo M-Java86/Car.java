@@ -34,9 +34,15 @@ public class Car {
 		//year cannot be less than 1900 < 1900 or more than 2015
 		_year = year; 
 		while (year <1900 || year > 2015)
-		{
+		{ //this will be looping until user enters correct year. 
 			System.out.println("Please enter valid year");
 			year = scan.nextInt();
 		}
+		_year = year;
   }
+	public String toString()
+	{
+      //toString method will simply return the make, model and the year.
+	return _make + " " + _model + " " + Integer.toString(_year);
+	}
 }
