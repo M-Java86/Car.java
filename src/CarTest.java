@@ -8,6 +8,21 @@ public class CarTest {
 		String model, make;
 		int year = 0;
 		Scanner scan = new Scanner(System.in);
+		
+		//create empty object-filling it with data inside the loop
+		Car car = new Car(" ", " ", 0); //initialized to nothing empty strings and 0 for the year
+		
+		//loop
+		while(!quit) 
+		{
+			System.out.println("Please enter the Car Make, Model and year :");
+			make = scan.next();
+			model = scan.next();
+			year = scan.nextInt();
+			
+			
+		}
+			
 
 	}
 
