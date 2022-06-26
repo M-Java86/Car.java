@@ -15,7 +15,7 @@ public class Car {
 		//assign values to = to constructor
 		_model = model;
 		_make = make;
-		_year = year;
+	     setYear(year);//validating the setters to reject year greater than 2015
 	}
       //getters -simply return model
 	public String getModel() { return _model; }
@@ -39,11 +39,11 @@ public class Car {
 			year = scan.nextInt();
 		}
 		_year = year;
-	}
-			public void quitScanner()
-			{
-				scan.close();
-			}
+	}         // once the users quits we don't need to close the scanner for this re-factor way. 
+			//public void quitScanner()
+			//{
+				//scan.close();
+		//	}
 		
   
 	public String toString()
