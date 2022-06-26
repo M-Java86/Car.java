@@ -36,7 +36,7 @@ public class Car {
 		while (year <1900 || year > 2015)
 		{
 			System.out.println("Please enter valid year");
-			year =
+			year = scan.nextInt();
 		}
   }
 }
