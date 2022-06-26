@@ -35,8 +35,14 @@ public class CarTest {
 			//hold the value that the users enters
 			toQuit = scan.next();
 			
+			if(toQuit.equalsIgnoreCase("Q"))
+				quit = true;
+			
 			
 		}
+		
+		scan.close();
+		System.out.println("Good bye");
 			
 
 	}
