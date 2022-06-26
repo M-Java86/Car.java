@@ -20,6 +20,11 @@ public class CarTest {
 			model = scan.next();
 			year = scan.nextInt();
 			
+			//assign data to object-Setters come into play
+			car .setMake(make);
+			car .setModel(model);
+			car .setYear(year);
+			
 			
 		}
 			
